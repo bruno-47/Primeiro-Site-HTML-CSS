@@ -1,0 +1,147 @@
+.main-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-img img {
+    height: 500px;
+    width: 1110px;
+}
+
+.project-info {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 130px;
+}
+
+.manage-column1 {
+    max-height: 470px;
+}
+
+.manage-column1 h2 {
+    margin-top: 28px;
+    font-family: var(--font-family-heads);
+    color: var(--color-primary-thre);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.manage-column1 P {
+    height: 150PX;
+    font-size: 16px;
+    color: var(--color-primary-thre);
+    font-family: var(--font-family-bodys);
+    opacity: 80%;
+    font-weight: 400px;
+    line-height: 30px;
+    width: 350px;
+    padding-top: 25px;
+}
+
+.manage-column1 span {
+    font-family: var(--font-family-bodys);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;
+}
+
+.padding-top {
+    padding-top: 40px;
+}
+
+.legend-column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.manage-column2 p {
+    max-width: 635px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: var(--color-primary-thre);
+    opacity: 0.8;
+    margin-top: 20px;
+
+}
+
+h2 {
+    font-size: 32px;
+    font-family: var(--font-family-heads);
+    letter-spacing: -0.285714px;
+    opacity: 80%;
+    font-weight: 400;
+
+}
+
+.manage-column2 img {
+    width: 635px;
+    height: 400px;
+}
+
+.manage-column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column2-img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.column2-img img {
+    padding-top: 20px;
+}
+
+.pass-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    height: 132px;
+    border-top: solid 1px rgba(51, 50, 61, 0.15);
+    border-bottom: solid 1px rgba(51, 50, 61, 0.15);
+    margin: 50px 380px;
+}
+
+.pass-img img {
+    margin: 0 25px;
+}
+
+
+
+.pass-img h3 {
+    font-family: var(--font-family-heads);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: var(--color-primary-thre);
+}
+
+.pass-img span {
+    font-family: var(--font-family-bodys);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-primary-thre);
+    opacity: 0.5;
+}
+
+.last-pass {
+    display: flex;
+    align-items: center;
+}
+
+.next-pass {
+    display: flex;
+    align-items: center;
+}
+
+.next-pass-text span {
+    margin-left: 10px;
+}

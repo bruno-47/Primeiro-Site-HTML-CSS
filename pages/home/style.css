@@ -1,0 +1,167 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0px 165px;
+
+}
+
+.main-background {
+    position: relative;
+    height: 600px;
+}
+
+.imagem-home {
+    align-items: center;
+    width: 1110px;
+    height: 600px;
+}
+
+.box-home-image {
+    background-color: var(--color-secundary-one);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: absolute;
+    bottom: 0px;
+    width: 420px;
+    height: 357px;
+}
+
+
+
+.box-home-image h1 {
+    font-family: var(--font-family-heads);
+    font-size: 50px;
+    position: center;
+    max-width: 445px;
+    color: var(--color-primary-thre);
+    padding: 28px 28px;
+    left: 0;
+
+}
+
+.button-about {
+    background-color: var(--color-primary-two);
+    height: 48px;
+    width: 200px;
+}
+
+.button-about-link {
+    display: flex;
+    align-items: center;
+}
+
+.button-about-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+    background-color: var(--color-primary-thre);
+    background-color: #1d3445;
+    height: 48px;
+    width: 48px;
+}
+
+.button-about-imagem img {
+    height: 26px;
+    width: 26px;
+}
+
+
+.button-about a span {
+    font-size: 20px;
+    color: var(--color-secundary-one);
+
+}
+
+.button-about a {
+    text-decoration: none;
+}
+
+
+.button-about:hover {
+    background-color: var(--color-primary-one);
+    color: white;
+}
+
+.button-about:hover .button-about-imagem {
+    background-color: #56a292;
+}
+
+.button-about:hover .button-about-imagem img {
+    filter: grayscale(100%) brightness(1000%);
+}
+
+.about-me img {
+    width: 500px;
+    height: 570px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin: 149px auto;
+}
+
+.about-me span {
+    font-family: var(--font-family-heads);
+    line-height: 42px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 34px;
+    color: var(--color-primary-thre);
+}
+
+.about-me p {
+    font-family: var(--font-family-bodys);
+    font-size: 16px;
+    line-height: 30PX;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 80%;
+    color: var(--color-primary-thre);
+    max-width: 430px;
+    max-height: 360px;
+}
+
+
+.contato {
+    height: 48px;
+    width: 168px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: var(--color-primary-thre);
+    color: #FFFFFF;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    border-top: solid 1px rgba(51, 50, 61, 0.15);
+    border-bottom: solid 1px rgba(51, 50, 61, 0.15);
+}
+
+
+
+.social-navegation {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-navegation img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-navegation {
+    gap: 20px
+}
